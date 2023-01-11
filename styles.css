@@ -1,0 +1,298 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+/**with an # you can call a Id selector, With a . you can call a Class selector, Nothing is requied, just the tag is required when calling it**/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 10% 7% 10%;
+}
+
+/* Navbar Styling */
+.navbar {
+    padding: 0 0 4rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 1rem 0 1rem;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.iphonepic{
+    width: 25%;
+    transform: rotate(22deg);
+    position: absolute;
+    right: 15%;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+}
+#features{
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    padding: 10px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 4%;
+}
+.press-logo{
+    width: 25%;
+    margin: 10px 50px 40px 50px;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 2% 3%;
+}
+
+@media (max-width: 1010px)
+{
+    #title{
+        text-align: center;
+    }
+    .iphonepic{
+        rotate: (0);
+        position: static;
+    }    
+}
+
+.ctac{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE CSS GRID SYSTEM */
+
+/* <div class="row">
+    <div class="col" style="background-color:red; border: 1px solid">
+        col
+    </div>
+    <div class="col" style="background-color:red; border: 1px solid">
+        col
+    </div>
+    <div class="col" style="background-color:red; border: 1px solid">
+        col
+    </div>
+</div>
+<div class="row">
+    <div class="col-6" style="background-color:blue; border: 1px solid">
+        col
+    </div>
+    <div class="col-2" style="background-color:blue; border: 1px solid">
+        col
+    </div>
+    <div class="col-2" style="background-color:blue; border: 1px solid">
+        col
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:green; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:green; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:green; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:green; border: 1px solid">
+        col
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:cyan; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:cyan; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:cyan; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:cyan; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:cyan; border: 1px solid">
+        col
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color:cyan; border: 1px solid">
+        col
+    </div>
+</div> */
