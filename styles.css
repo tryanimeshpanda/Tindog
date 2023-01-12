@@ -117,12 +117,20 @@ h2{
     text-align: center;
     padding: 100px 100px;
 }
+.ctach{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.icondes{
+    margin: 20px 50px ;
+}
 
 #footer{
     background-color: white;
     text-align: center;
-    padding: 50px 50px;
+    padding: 50px 25px;
 }
+
 
 
 
